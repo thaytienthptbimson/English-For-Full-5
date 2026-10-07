@@ -54,30 +54,30 @@ button{font:inherit;cursor:pointer;color:inherit}
 <main id="app"></main>
 <script>
 const LESSONS=[
-{lv:"A1",c:"#2a9d8f",title:"Giới thiệu bản thân",topic:"Người mới bắt đầu",
+{lv:"A1",c:"#2a9d8f",title:"Introducing Yourself",topic:"Beginner",
 text:"Hi, my name is Linh. I am twelve years old. I live in Hanoi with my mother, my father and my little brother. I like cats and I like music.",
 qs:[
-{q:"Linh bao nhiêu tuổi?",o:["10","12","14"],a:1,w:"Cô bé nói: \"I am twelve years old.\""},
-{q:"Linh sống ở đâu?",o:["Hà Nội","Huế","Đà Nẵng"],a:0,w:"\"I live in Hanoi.\""},
-{q:"Linh thích gì?",o:["Chó và thể thao","Mèo và âm nhạc","Sách và phim"],a:1,w:"\"I like cats and I like music.\""}]},
-{lv:"A2",c:"#e0952a",title:"Cuối tuần của Nam",topic:"Sơ cấp",
+{q:"How old is Linh?",o:["Ten","Twelve","Fourteen"],a:1,w:"She says, \"I am twelve years old.\""},
+{q:"Where does Linh live?",o:["In Hanoi","In Hue","In Da Nang"],a:0,w:"She says, \"I live in Hanoi.\""},
+{q:"What does Linh like?",o:["Dogs and sports","Cats and music","Books and movies"],a:1,w:"She says, \"I like cats and I like music.\""}]},
+{lv:"A2",c:"#e0952a",title:"Nam's Weekend",topic:"Elementary",
 text:"Last Saturday, Nam woke up at seven o'clock. He had breakfast and then played football with his friends in the park. In the afternoon it rained, so he stayed at home and watched a movie. In the evening his grandmother cooked fish soup for the whole family.",
 qs:[
-{q:"Buổi sáng Nam làm gì?",o:["Xem phim","Đá bóng ở công viên","Nấu ăn"],a:1,w:"\"played football with his friends in the park.\""},
-{q:"Vì sao buổi chiều Nam ở nhà?",o:["Trời mưa","Nam bị ốm","Nam phải học bài"],a:0,w:"\"it rained, so he stayed at home.\""},
-{q:"Ai nấu bữa tối?",o:["Mẹ","Bà","Nam"],a:1,w:"\"his grandmother cooked fish soup.\""}]},
-{lv:"B1",c:"#3a6fd8",title:"Đặt phòng khách sạn",topic:"Trung cấp",
+{q:"What did Nam do in the morning?",o:["He watched a movie","He played football in the park","He cooked dinner"],a:1,w:"He played football with his friends in the park."},
+{q:"Why did Nam stay at home in the afternoon?",o:["It rained","He was sick","He had homework"],a:0,w:"It rained, so he stayed at home."},
+{q:"Who cooked dinner?",o:["His mother","His grandmother","Nam"],a:1,w:"His grandmother cooked fish soup."}]},
+{lv:"B1",c:"#3a6fd8",title:"Booking a Hotel Room",topic:"Intermediate",
 text:"Good morning. I'd like to book a room for two nights, please. Certainly. Would you like a single or a double room? A double, please. And is breakfast included? Yes, breakfast is included, but parking costs ten dollars a day. That's fine. I'll arrive on Friday evening, around eight.",
 qs:[
-{q:"Khách muốn ở bao lâu?",o:["Một đêm","Hai đêm","Ba đêm"],a:1,w:"\"a room for two nights.\""},
-{q:"Khoản nào KHÔNG nằm trong giá phòng?",o:["Bữa sáng","Chỗ đậu xe","Cả hai"],a:1,w:"Bữa sáng đã gồm, còn đậu xe tính 10 đô mỗi ngày."},
-{q:"Khi nào khách đến?",o:["Thứ Sáu, khoảng 8 giờ tối","Thứ Sáu, khoảng 8 giờ sáng","Thứ Bảy, khoảng 8 giờ tối"],a:0,w:"\"on Friday evening, around eight.\""}]},
-{lv:"B2",c:"#8e4fc9",title:"Làm việc từ xa",topic:"Trung cao cấp",
+{q:"How long will the guest stay?",o:["One night","Two nights","Three nights"],a:1,w:"The guest asks for a room for two nights."},
+{q:"What is NOT included in the room price?",o:["Breakfast","Parking","Both of them"],a:1,w:"Breakfast is included, but parking costs ten dollars a day."},
+{q:"When will the guest arrive?",o:["Friday evening, around eight","Friday morning, around eight","Saturday evening, around eight"],a:0,w:"The guest says, \"I'll arrive on Friday evening, around eight.\""}]},
+{lv:"B2",c:"#8e4fc9",title:"Working from Home",topic:"Upper-intermediate",
 text:"More and more companies are allowing employees to work from home at least part of the week. Supporters argue that it saves commuting time and improves work-life balance. However, critics point out that remote workers can feel isolated, and that spontaneous collaboration often suffers. As a compromise, many firms now adopt a hybrid model, with two or three office days each week.",
 qs:[
-{q:"Người ủng hộ cho rằng lợi ích chính là gì?",o:["Lương cao hơn","Tiết kiệm thời gian đi lại và cân bằng cuộc sống","Ít họp hơn"],a:1,w:"Họ nói nó tiết kiệm thời gian đi lại và cải thiện cân bằng công việc – cuộc sống."},
-{q:"Người phản đối lo ngại điều gì?",o:["Chi phí điện nước","Cảm giác cô lập và giảm hợp tác tự nhiên","Máy tính chậm"],a:1,w:"\"feel isolated\" và \"spontaneous collaboration often suffers\"."},
-{q:"Giải pháp dung hòa được nhắc đến?",o:["Làm việc 4 ngày/tuần","Mô hình kết hợp, 2–3 ngày ở văn phòng","Chỉ làm tại nhà"],a:1,w:"\"a hybrid model, with two or three office days each week.\""}]}
+{q:"What main benefit do supporters mention?",o:["Higher salaries","Less commuting time and better work-life balance","Fewer meetings"],a:1,w:"They say it saves commuting time and improves work-life balance."},
+{q:"What are critics worried about?",o:["Higher electricity bills","Isolation and less spontaneous collaboration","Slower computers"],a:1,w:"Critics say remote workers can feel isolated and spontaneous collaboration suffers."},
+{q:"What compromise is mentioned?",o:["A four-day work week","A hybrid model with two or three office days","Working only from home"],a:1,w:"Many firms adopt a hybrid model with two or three office days each week."}]}
 ];
 const best={},app=document.getElementById("app");
 let rate=1;
@@ -140,7 +140,7 @@ function lesson(i){
       box.querySelectorAll(".opt").forEach(x=>x.disabled=true);
       box.querySelectorAll(".opt")[q.a].classList.add("right");
       if(!good)b.classList.add("wrong");
-      box.querySelector(".why").textContent=(good?"Chính xác. ":"Chưa đúng. ")+q.w;
+      box.querySelector(".why").textContent=(good?"Correct. ":"Not quite. ")+q.w;
       score+=good;answered++;
       if(answered===L.qs.length)finish();
     });
